@@ -1,5 +1,6 @@
 package apigateway
 
+// перенести сюда из cmd
 import (
 	"fmt"
 )
