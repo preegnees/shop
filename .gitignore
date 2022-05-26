@@ -2,4 +2,4 @@
 .bins
 envs
 .idea
-frontend\bot\utils\__pycache__
+frontend\bot\utils\__pycache__\

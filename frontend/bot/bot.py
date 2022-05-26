@@ -1,15 +1,11 @@
-from utils import parse, load_env
+from utils import config
 from loguru import logger
-import sys
 
-def on_start():
-    (path, err) = parse()
-    if err != None:
-        logger.error(err)
-        sys.exit()
 
-    env = load_env(path)
+def start():
+    print(config.get_env())
+
 
 if __name__ == "__main__":
-    on_start()
+    start()
     logger.info("Bot is started")
