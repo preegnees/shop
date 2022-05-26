@@ -1,8 +1,13 @@
-# win
+# win #
 .SILENT:
 
+# Run service apiGateway
 b-gw:
-	go build -o .\.bins\shop\apiGateway\apiGateway.exe .\cmd\shop\apiGateway\apiGateway.go  
+	go build -o .\.bins\apiGateway\apiGateway.exe .\backend\cmd\apiGateway\apiGateway.go 
 
 r-gw: b-gw
-	.\.bins\shop\apiGateway\apiGateway.exe
+	.\.bins\apiGateway\apiGateway.exe
+
+# Bot telegram
+r-bot:
+	python3 .\frontend\bot\bot.py -p envs\bot.env

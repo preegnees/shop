@@ -1,2 +1,5 @@
 .vscode
 .bins
+envs
+.idea
+frontend\bot\utils\__pycache__
