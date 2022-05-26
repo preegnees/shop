@@ -1,11 +1,11 @@
-from utils import config
 from loguru import logger
-
+from utils import tengers
 
 def start():
-    print(config.get_env())
+    tengers.run()
 
 
 if __name__ == "__main__":
+    logger.info("Bot is starting")
     start()
-    logger.info("Bot is started")
+    logger.info("Bot is stopped")
