@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	s "rest_api/cmd/shop/apiGateway/server"
-	h "rest_api/cmd/shop/apiGateway/handler"
+	s "rest_api/pkg/shop/apiGateway/server"
+	h "rest_api/pkg/shop/apiGateway/handler"
 )
 
 func main() {
