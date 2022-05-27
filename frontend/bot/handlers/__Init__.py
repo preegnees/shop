@@ -1,1 +1,1 @@
-from .echo import echo
+from .registration import registration
