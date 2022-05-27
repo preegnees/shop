@@ -2,7 +2,7 @@ from loguru import logger
 from utils import tengers
 
 # init handlers
-from handlers import echo
+from handlers import registration
 
 def start():
     tengers.run()
