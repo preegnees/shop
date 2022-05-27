@@ -1,4 +1,3 @@
-from typing import Dict
 from dotenv import dotenv_values
 from . import parse
 from loguru import logger
