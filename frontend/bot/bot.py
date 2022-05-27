@@ -1,6 +1,8 @@
 from loguru import logger
-from handlers import echo
 from utils import tengers
+
+# init handlers
+from handlers import echo
 
 def start():
     print("start")
